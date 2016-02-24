@@ -1,0 +1,40 @@
+.btn() {
+	background-color: @primary-color;
+	color: #ffffff;
+	border-color: @primary-color;
+	border-radius: 4px;
+	text-transform: none;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 10px 15px;
+	font-style: normal;
+	text-align: center;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+	&:hover {
+		background-color: #c42c00;
+		border-color: #fd652b;
+		color: @light;
+	}
+}
+
+.btn-secondary() {
+	.btn();
+	background-color: #5ba5af;
+	border-color: #5ba5af;
+
+	&:hover {
+		background-color: #428992;
+		border-color: #5db9c5;
+	}
+}
+
+.icon( @icon ) {
+	content: @icon;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+}

@@ -1,0 +1,11 @@
+Pending
+[course_status_pending]
+-for courses that have 0% progress
+
+In Progress
+[course_status_in_progress]
+-for courses that have 1% > 99% progress
+
+Completed
+[course_status_completed]
+-for courses that have 100% progress

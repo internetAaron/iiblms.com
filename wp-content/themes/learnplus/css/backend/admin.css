@@ -1,0 +1,7 @@
+#team-member-info .team-member-address,
+#team-member-info .team-member-phone,
+#team-member-info .team-member-email,
+#team-member-info .team-member-url {
+	display: none;
+}
+

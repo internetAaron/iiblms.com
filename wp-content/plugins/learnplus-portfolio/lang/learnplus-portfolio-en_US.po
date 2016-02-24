@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnPlus Portfolio Management\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Dec 21 2015 16:24:43 GMT+0700 (SE Asia Standard Time)\n"
+"PO-Revision-Date: Mon Dec 21 2015 16:24:46 GMT+0700 (SE Asia Standard Time)\n"
+"Last-Translator: admin <daoanh250788@gmail.com>\n"
+"Language-Team: \n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "LearnPlus Portfolio Management"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://themealien.com"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Create and manage your works you have done and present them in the easiest "
+"way."
+msgstr ""
+
+#. Author of the plugin
+msgid "Theme Alien"
+msgstr ""
+
+#: /inc/class-portfolio.php:58
+msgctxt "Post Type General Name"
+msgid "Portfolio"
+msgstr ""
+
+#: /inc/class-portfolio.php:59
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#: /inc/class-portfolio.php:60
+msgid "Portfolios"
+msgstr ""
+
+#: /inc/class-portfolio.php:61
+msgid "Parent Portfolio"
+msgstr ""
+
+#: /inc/class-portfolio.php:62
+msgid "All Portfolios"
+msgstr ""
+
+#: /inc/class-portfolio.php:63
+msgid "View Portfolio"
+msgstr ""
+
+#: /inc/class-portfolio.php:64
+msgid "Add New Portfolio"
+msgstr ""
+
+#: /inc/class-portfolio.php:65 /inc/class-showcase.php:64
+msgid "Add New"
+msgstr ""
+
+#: /inc/class-portfolio.php:66
+msgid "Edit Portfolio"
+msgstr ""
+
+#: /inc/class-portfolio.php:67
+msgid "Update Portfolio"
+msgstr ""
+
+#: /inc/class-portfolio.php:68
+msgid "Search Portfolio"
+msgstr ""
+
+#: /inc/class-portfolio.php:69 /inc/class-showcase.php:68
+msgid "Not found"
+msgstr ""
+
+#: /inc/class-portfolio.php:70 /inc/class-showcase.php:69
+msgid "Not found in Trash"
+msgstr ""
+
+#: /inc/class-portfolio.php:73
+msgid "Portfolio"
+msgstr ""
+
+#: /inc/class-portfolio.php:74
+msgid "Create and manage all works"
+msgstr ""
+
+#: /inc/class-portfolio.php:104 /inc/class-portfolio.php:114
+msgid "Categories"
+msgstr ""
+
+#: /inc/class-portfolio.php:105 /template/single-portfolio.php:88
+msgid "Category"
+msgstr ""
+
+#: /inc/class-portfolio.php:106
+msgid "Search Categories"
+msgstr ""
+
+#: /inc/class-portfolio.php:107
+msgid "All Categories"
+msgstr ""
+
+#: /inc/class-portfolio.php:108
+msgid "Parent Category"
+msgstr ""
+
+#: /inc/class-portfolio.php:109
+msgid "Parent Category:"
+msgstr ""
+
+#: /inc/class-portfolio.php:110
+msgid "Edit Category"
+msgstr ""
+
+#: /inc/class-portfolio.php:111
+msgid "Update Category"
+msgstr ""
+
+#: /inc/class-portfolio.php:112
+msgid "Add New Category"
+msgstr ""
+
+#: /inc/class-portfolio.php:113
+msgid "New Category Name"
+msgstr ""
+
+#: /inc/class-portfolio.php:145
+msgid "Thumbnail"
+msgstr ""
+
+#: /inc/class-portfolio.php:176 /inc/class-portfolio.php:274
+msgid "Select Or Upload Images"
+msgstr ""
+
+#: /inc/class-portfolio.php:190
+msgid "Portfolio Type"
+msgstr ""
+
+#: /inc/class-portfolio.php:191
+msgid "Portfolio Gallery"
+msgstr ""
+
+#: /inc/class-portfolio.php:192
+msgid "Portfolio Details"
+msgstr ""
+
+#: /inc/class-portfolio.php:210
+msgid "Project Client"
+msgstr ""
+
+#: /inc/class-portfolio.php:215 /template/single-portfolio.php:78
+msgid "Author"
+msgstr ""
+
+#: /inc/class-portfolio.php:220
+msgid "Project Social"
+msgstr ""
+
+#: /inc/class-portfolio.php:224
+msgid "Facebook URL"
+msgstr ""
+
+#: /inc/class-portfolio.php:229
+msgid "Linkedin URL"
+msgstr ""
+
+#: /inc/class-portfolio.php:234
+msgid "Instagram URL"
+msgstr ""
+
+#: /inc/class-portfolio.php:239
+msgid "Twitter URL"
+msgstr ""
+
+#: /inc/class-portfolio.php:244
+msgid "Pinterest URL"
+msgstr ""
+
+#: /inc/class-portfolio.php:294
+msgid "Choose portfolio type to view pop up"
+msgstr ""
+
+#: /inc/class-portfolio.php:307
+msgid "Single Image"
+msgstr ""
+
+#: /inc/class-portfolio.php:312
+msgid "Gallery"
+msgstr ""
+
+#: /inc/class-portfolio.php:316
+msgid "Vimeo (Use the simple url such as: http://www.vimeo.com/your_video_id)"
+msgstr ""
+
+#: /inc/class-portfolio.php:318
+msgid "Vimeo URL"
+msgstr ""
+
+#: /inc/class-portfolio.php:324
+msgid "Youtube (Use the simple url such as: http://www.youtu.be/your_video_id)"
+msgstr ""
+
+#: /inc/class-portfolio.php:326
+msgid "Youtube URL"
+msgstr ""
+
+#: /inc/class-portfolio.php:388
+msgid "Edit"
+msgstr ""
+
+#: /inc/class-portfolio.php:389
+msgid "Delete"
+msgstr ""
+
+#: /inc/class-showcase.php:57
+msgctxt "Post Type General Name"
+msgid "Showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:58
+msgctxt "Post Type Singular Name"
+msgid "Showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:59 /inc/class-showcase.php:72
+msgid "Showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:60
+msgid "Parent Showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:61
+msgid "Showcases"
+msgstr ""
+
+#: /inc/class-showcase.php:62
+msgid "View Showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:63
+msgid "Add New Showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:65
+msgid "Edit Showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:66
+msgid "Update Showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:67
+msgid "Search Showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:73
+msgid "Create showcase shortcode"
+msgstr ""
+
+#: /inc/class-showcase.php:103 /inc/class-showcase.php:133
+msgid "Shortcode"
+msgstr ""
+
+#: /inc/class-showcase.php:132
+msgid "Showcase Options"
+msgstr ""
+
+#: /inc/class-showcase.php:160
+msgid "Category to display"
+msgstr ""
+
+#: /inc/class-showcase.php:178
+msgid "Number of portfolio"
+msgstr ""
+
+#: /inc/class-showcase.php:182
+msgid ""
+"With Metro layout, the value for the best view is 5, 6, 8 or a multiple of 8,"
+" eg: 8, 16, 24..."
+msgstr ""
+
+#: /inc/class-showcase.php:189
+msgid "Showcase Layout"
+msgstr ""
+
+#: /inc/class-showcase.php:192
+msgid "Grid"
+msgstr ""
+
+#: /inc/class-showcase.php:193
+msgid "Masonry"
+msgstr ""
+
+#: /inc/class-showcase.php:194
+msgid "Metro"
+msgstr ""
+
+#: /inc/class-showcase.php:199
+msgid "Portfolio Columns"
+msgstr ""
+
+#: /inc/class-showcase.php:202
+msgid "4 columns"
+msgstr ""
+
+#: /inc/class-showcase.php:203
+msgid "3 columns"
+msgstr ""
+
+#: /inc/class-showcase.php:209
+msgid "Spacing"
+msgstr ""
+
+#: /inc/class-showcase.php:214
+msgid "This is spacing between portfolios"
+msgstr ""
+
+#: /inc/class-showcase.php:220
+msgid "Enable Filter"
+msgstr ""
+
+#: /inc/class-showcase.php:225
+msgid ""
+"Enable this feature to show the filter by category on top of portfolio "
+"showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:231
+msgid "Enable View More"
+msgstr ""
+
+#: /inc/class-showcase.php:237
+msgid ""
+"Enable this feature to show view more button at the bottom of portfolio "
+"showcase"
+msgstr ""
+
+#: /inc/class-showcase.php:260
+msgid ""
+"Copy and paste this shortcode to any page you want to display portfolio "
+"showcase."
+msgstr ""
+
+#: /inc/shortcodes.php:82
+msgid "View all items"
+msgstr ""
+
+#: /inc/shortcodes.php:83
+msgid "All"
+msgstr ""
+
+#: /inc/shortcodes.php:107
+msgid "View all items under"
+msgstr ""
+
+#: /inc/shortcodes.php:240
+msgid "«"
+msgstr ""
+
+#: /inc/shortcodes.php:241
+msgid "View More"
+msgstr ""
+
+#: /template/single-portfolio.php:61
+msgid "Date"
+msgstr ""
+
+#: /template/single-portfolio.php:69
+msgid "Client"
+msgstr ""
+
+#: /template/single-portfolio.php:118
+msgid "Share On"
+msgstr ""
+
+#: /template/single-portfolio.php:127
+msgid "Live Demo"
+msgstr ""
+
+#: /template/single-portfolio.php:168
+msgid "Related Works"
+msgstr ""

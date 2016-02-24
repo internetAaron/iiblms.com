@@ -1,0 +1,99 @@
+/*
+Theme Name: LearnPlus
+Theme URI: http://themealien.com/theme/learnplus
+Author: ThemeAlien
+Author URI: http://themealien.com
+Description: Greate theme for Education, University Learning websites with tons of sections and custom sections
+Version: 1.0.0
+License: GNU General Public License v2+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: learnplus
+Domain Path: /lang/
+Tags: one-column, two-columns, left-sidebar, right-sidebar, full-width-template, post-formats, theme-options, threaded-comments, translation-ready
+*/
+body.login {
+  background-color: #428992;
+}
+#login {
+  width: 555px;
+}
+body.interim-login #login {
+  width: auto;
+}
+.login h1 a {
+  width: 100%;
+  background-size: 240px auto;
+}
+.login #nav {
+  text-align: center;
+}
+.login #backtoblog {
+  text-align: center;
+}
+.login #backtoblog a {
+  color: #fff;
+}
+.login .submit .button-primary {
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 600;
+  float: none;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  border-color: #e34b11;
+  background: #e34b11;
+  color: #ffffff;
+}
+.login .submit .button-primary:hover {
+  border-color: #fd652b;
+  background: #c42c00;
+}
+.message {
+  margin-bottom: 20px;
+}
+.panel-login {
+  padding: 35px;
+  background-color: #fff;
+}
+.panel-login form {
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+.panel-login form .input {
+  font-size: 14px;
+  height: 45px;
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.panel-login form .input:focus {
+  box-shadow: none;
+}
+.panel-login form .forgetmenot {
+  float: none;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.panel-login form .forgetmenot label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.login-action-register .panel-login {
+  padding-top: 0;
+}
+.login-action-register .panel-login #nav {
+  margin-top: 0;
+}
+@media (max-width: 600px) {
+  .login #login {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+}

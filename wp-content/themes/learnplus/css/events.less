@@ -1,0 +1,266 @@
+#tribe-bar-form {
+	background-color: transparent;
+	border: 1px solid #dedde1;
+}
+
+.tribe-bar-views-inner,
+#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a{
+	background-color: #dedde1;
+}
+
+#tribe-bar-form .tribe-bar-submit input[type=submit] {
+	.btn-secondary();
+}
+
+#tribe-geo-results h2.tribe-events-page-title,
+h2.tribe-events-page-title {
+	color: #363a47;
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.tribe-events-calendar thead th {
+	background-color: #5ba5af;
+	border-color: rgba( 255, 255, 255, 0.3 );
+}
+
+.tribe-events-tooltip .duration {
+	font-weight: 400;
+}
+
+ul.tribe-events-sub-nav a,
+.tribe-events-single .tribe-events-back a{
+	.btn-secondary();
+	display: inline-block;
+}
+
+.single-tribe_events h2.tribe-events-single-event-title {
+	color: #363a47;
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.single-tribe_events .tribe-events-schedule h3 {
+	font-size: 15px;
+}
+
+.single-tribe_events .tribe-events-event-meta {
+	background-color: transparent;
+	border: 1px solid #dedde1;
+}
+
+.single-tribe_events  #tribe-events-footer {
+	padding: 0;
+	border: none;
+}
+
+.events-list .tribe-events-loop,
+.single-tribe_organizer .tribe-events-loop,
+.single-tribe_venue .tribe-events-loop,
+.tribe-events-day .tribe-events-loop {
+	max-width: 100%;
+}
+
+#tribe-events-content .updated {
+	font-weight: 400;
+}
+
+#tribe-events-content .tribe-events-read-more {
+	.btn-secondary();
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.tribe-events-list .tribe-events-event-image {
+	width: 100%;
+}
+
+.tribe-events-list div.tribe-events-content {
+	width: 100%;
+}
+
+.tribe-events-day .tribe-events-day-time-slot .type-tribe_events {
+	margin-left: 0;
+}
+.tribe-events-list .tribe-events-event-cost {
+	float: left;
+	margin: 0;
+}
+
+.tribe-events-list .type-tribe_events h2 {
+	display: block;
+	clear: both;
+}
+
+.single-tribe_events .lp-single-events-image{
+	width: 50%;
+	float: left;
+	margin-right: 20px;
+}
+
+.single-tribe_events .btn-event-join {
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	min-height: 30px;
+	line-height: 30px;
+}
+
+.single-tribe_events .tribe-events-event-image {
+	margin-bottom: 0;
+}
+
+.single-tribe_events .tribe-events-cal-links {
+	margin-bottom: 0;
+}
+
+.single-tribe_events .tribe-events-event-meta {
+	clear: both;
+}
+
+.single-tribe_events .comments-area .submit {
+	width: auto;
+}
+
+/**
+ * Bootstrap modal
+ */
+body.modal-open {
+	overflow: inherit;
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	display: none;
+	overflow: hidden;
+	outline: 0;
+	background: rgba(0,0,0,0.86);
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+
+	&.fade .modal-dialog {
+		transition: transform .3s ease-out;
+		transform: translate3d(0, 0, 0);
+	}
+
+	&.in .modal-dialog {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.modal-open .modal {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.modal-dialog {
+	position: relative;
+	width: auto;
+	margin: 10px;
+}
+
+.modal-content {
+	box-shadow: none;
+	border-radius: 0;
+	position: relative;
+	background-color: #fff;
+	background-clip: padding-box;
+	outline: 0;
+	border: none;
+}
+
+.modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	background-color: #000;
+
+	&.fade {
+		opacity: 0;
+	}
+
+	&.in {
+		opacity: .5;
+	}
+}
+
+.modal-header {
+	min-height: 40px;
+	text-align: center;
+	position: absolute;
+	z-index: 99;
+	right: 0px;
+	border: none;
+	padding: 0;
+
+	.close {
+		height: 40px;
+		width: 40px;
+		color: #444444;
+	}
+}
+
+.modal-title {
+	margin: 0;
+	line-height: 1.42857143;
+}
+
+.modal-body {
+	position: relative;
+	min-height: 40px;
+	padding: 10px 30px 30px;
+}
+
+.modal-scrollbar-measure {
+	position: absolute;
+	top: -9999px;
+	width: 50px;
+	height: 50px;
+	overflow: scroll;
+}
+
+button.close {
+	-webkit-appearance: none;
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	font-size: 21px;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+@media (min-width: 768px) {
+	.modal-dialog {
+		width: 600px;
+		margin: 32px auto;
+	}
+	.modal-content {
+
+	}
+	.modal-sm {
+		width: 300px;
+	}
+}
+@media (min-width: 992px) {
+	.modal-lg {
+		width: 900px;
+	}
+}

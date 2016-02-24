@@ -1,0 +1,586 @@
+.clearfix{
+	zoom: 1
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table
+}
+
+.clearfix:after{
+	clear: both
+}
+
+
+.portfolio-showcase .portfolio_project, .portfolio-showcase .portfolio-sizer{
+	width:      25%;
+	float:      left;
+	overflow:   hidden;
+	text-align: center
+}
+
+.portfolio-columns-3 .portfolio_project, .portfolio-columns-3 .portfolio-sizer {
+	width: 33.333%;
+}
+
+.portfolio-showcase .portfolio-wide{
+	width: 50%
+}
+
+.portfolio-columns-3 .portfolio-wide{
+	width: 66.66%
+}
+
+.portfolio-showcase .portfolio-detail{
+	position: relative;
+	overflow: hidden
+}
+
+.portfolio-showcase .portfolio-detail:hover h3{
+	opacity: 1;
+	bottom:  50px
+}
+
+.portfolio-showcase .portfolio-detail:hover .portfolio-cats{
+	opacity: 1;
+	bottom:  20px
+}
+
+.portfolio-showcase .portfolio-detail:hover .view-portfolio-detail{
+	background: rgba(0, 0, 0, 0.3)
+}
+
+.portfolio-showcase .portfolio-cats{
+	-webkit-transition: opacity 1s, bottom 0.5s;
+	transition:         opacity 1s, bottom 0.5s;
+	opacity:            0;
+	width:              100%;
+	margin:             0;
+	position:           absolute;
+	bottom:             -50px;
+	text-transform:     uppercase;
+	text-align:         center;
+	color:              #fff;
+	z-index:            5
+}
+
+.portfolio-showcase .portfolio_project img{
+	display:        block;
+	max-width:      none;
+	width:          100%;
+	height:         auto;
+	vertical-align: middle
+}
+
+.portfolio-showcase .portfolio-cats{
+	font-size: 12px
+}
+
+.portfolio-showcase .portfolio-cats a{
+	color:           #fff;
+	text-decoration: none
+}
+
+.portfolio-showcase .view-portfolio-detail{
+	-webkit-transition: background 0.5s;
+	-moz-transition:    background 0.5s;
+	-ms-transition:     background 0.5s;
+	-o-transition:      background 0.5s;
+	position:           absolute;
+	top:                0;
+	left:               0;
+	width:              100%;
+	height:             100%;
+	z-index:            2;
+	text-indent:        -9999px;
+	background:         rgba(0, 0, 0, 0)
+}
+
+
+.portfolio-showcase.portfolio-layout-metro.init-completed .portfolio-detail{
+	height: 100%
+}
+
+.portfolio-showcase .portfolio_project{
+	margin-bottom: 0
+}
+
+.full-width.singular .site-content .hentry.portfolio_project.has-post-thumbnail{
+	margin-top: 0
+}
+
+.full-width.singular .site-content .entry-footer{
+	max-width: 474px;
+	margin:    auto;
+	padding:   30px
+}
+
+
+.portfolio-pagination{
+	text-align: center;
+	overflow:   hidden;
+}
+
+.portfolio-pagination .page-numbers{
+	color:      #ccc;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.portfolio-pagination a,
+.portfolio-pagination span{
+	display:      inline;
+	font-size:    12px;
+	background:   #fff;
+	color:        #ccc;
+	display:      inline-block;
+	height:       35px;
+	line-height:  36px;
+	margin-right: 2px;
+	width:        35px;
+}
+
+.portfolio-pagination a:hover,
+.portfolio-pagination span.current,
+.portfolio-pagination span:hover,
+.price-det ins span.amount{
+	color: #181818;
+}
+
+.portfolio-pagination .prev{
+	border-radius:         3px 0 0 3px;
+	-moz-border-radius:    3px 0 0 3px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-ms-border-radius:     3px 0 0 3px;
+	-o-border-radius:      3px 0 0 3px;
+}
+
+.portfolio-pagination .next{
+	border-radius:         0 3px 3px 0;
+	-moz-border-radius:    0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;
+	-ms-border-radius:     0 3px 3px 0;
+	-o-border-radius:      0 3px 3px 0;
+}
+
+.portfolio-showcase .project2 .span-2{
+	width: 20% !important;
+	float: left;
+}
+
+.portfolio-showcase .heading p{
+	font-style: italic;
+	font-size:  15px;
+	color:      #969595;
+	padding:    55px 0px;
+	text-align: center;
+}
+
+.portfolio-showcase .main-project .heading{
+	text-align: center;
+	padding:    70px 0px;
+}
+
+.home_one .portfolio-showcase .main-project .heading{
+	padding: 50px 0 100px;
+}
+
+.portfolio-showcase .main-project .heading a.readmore:hover{
+	border: 1px solid transparent;
+	color:  #000;
+}
+
+.portfolio-showcase .main-project .heading a.readmore:before{
+	background: #bca46c;
+}
+
+.portfolio-showcase .main-project .span-2{
+	width:      20%;
+	float:      left;
+	box-sizing: border-box;
+}
+
+.portfolio-showcase .main-project .item.span-5{
+	position: relative;
+	width:    50%;
+}
+
+.portfolio-showcase .main-project .item.span-10{
+	float:    left;
+	position: relative;
+	width:    100%;
+}
+
+.portfolio-showcase .main-project .span-4{
+	box-sizing: border-box;
+	float:      left;
+	width:      40%;
+}
+
+.portfolio-showcase .main-project .span-2 img{
+	max-width: 100%;
+}
+
+.portfolio-showcase .main-project .span-5{
+	width: 100%;
+	float: left;
+}
+
+.portfolio-showcase .main-project .span-5 img{
+	max-width: 100%;
+	width:     100%
+}
+
+.portfolio-showcase .main-project .span-8{
+	width:      80%;
+	float:      left;
+	box-sizing: border-box;
+}
+
+.portfolio-showcase .main-project .span-8 .span-5{
+	width:      40%;
+	float:      left;
+	box-sizing: border-box;
+}
+
+.portfolio-showcase .main-project .span-8 .span-2{
+	width:      20%;
+	float:      left;
+	box-sizing: border-box;
+}
+
+.portfolio-showcase .main-project .item{
+	position: relative;
+	overflow: hidden;
+}
+
+.portfolio-showcase .main-project .item:hover .item-overlay{
+	background-color:   rgba(0, 0, 0, 0.6);
+}
+
+.portfolio-showcase .main-project .item:hover .item-overlay-actions{
+	opacity: 1;
+	transform: scale(1) translateY(-50%);
+}
+
+.portfolio-showcase .main-project .item a h2{
+	font-size: 20px;
+	color:     white;
+}
+
+.portfolio-showcase .main-project .item a p{
+	font-style: italic;
+	color:      #ff9b13;
+	font-size:  14px;
+}
+
+.portfolio-showcase .main-project .item-overlay{
+	position:           absolute;
+	top:                0;
+	right:              0;
+	width:              100%;
+	height:             100%;
+	background-color:   rgba(0, 0, 0, 0);
+	color:              white;
+	transition:         all 0.5s;
+}
+
+.portfolio-showcase .main-project .item-overlay-actions{
+	position:           absolute;
+	top:                50%;
+	width:              100%;
+	text-align:         center;
+	opacity:            0;
+	transition:         all 0.5s;
+	transform: translateY(-50%) scale(0.5);
+}
+
+.portfolio-showcase .main-project .item-overlay-actions a {
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 38px;
+	color: #ffffff;
+	background-color: #e34b11;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.portfolio-showcase .main-project .item-overlay-actions a:focus {
+	border: none;
+}
+
+.portfolio-showcase .main-project .item-overlay-actions a.link-detail {
+	line-height: 40px;
+}
+
+.portfolio-filter{
+	margin-bottom: 50px;
+}
+
+.portfolio-filter ul{
+	margin:     0;
+	padding:    0;
+	text-align: center;
+}
+
+.portfolio-filter ul li{
+	list-style: none;
+	display:    inline-block;
+	position:   relative;
+}
+
+.portfolio-filter ul li:hover a,
+.portfolio-filter ul li.active a{
+	color:           #e34b11;
+	text-decoration: none;
+}
+
+.portfolio-filter ul li:last-child span{
+	display: none;
+}
+
+.portfolio-filter ul li a{
+	font-size:      14px;
+	color:          #363a47;
+	text-transform: uppercase;
+	padding:        20px 15px;
+	display:        inline-block;
+	font-weight:    700;
+}
+
+.portfolio-showcase .owl-controls .owl-buttons .owl-prev{
+	position: absolute;
+	left:     0px;
+	top:      45%;
+}
+
+.portfolio-showcase .owl-controls .owl-buttons .owl-next{
+	position: absolute;
+	right:    0px;
+	top:      45%;
+}
+
+.portfolio-showcase .owl-controls .owl-buttons div{
+	background-color: rgba(0, 0, 0, 0.6);
+	margin:           0px;
+	border-radius:    0px;
+	padding:          10px 15px;
+}
+
+.portfolio-showcase .owl-controls .owl-buttons div:hover{
+	color:            #9d8a5d;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.portfolio-showcase .portfolio-pagination .page-numbers{
+	display: none;
+}
+
+.portfolio-showcase .portfolio-pagination{
+	position: relative;
+}
+
+.portfolio-showcase .portfolio-pagination .page-numbers.next:after{
+	position:          absolute;
+	top:               5px;
+	left:              50%;
+	font-size:         30px;
+	margin-left:       -15px;
+	font-family:       FontAwesome;
+	content:           "\f110";
+	-webkit-animation: fa-spin 2s infinite linear;
+	animation:         fa-spin 2s infinite linear;
+	opacity:           0;
+	transition:        0.5s;
+	color:             #c42c00;
+}
+
+.portfolio-showcase .portfolio-pagination .page-numbers.loading:after{
+	opacity: 1;
+}
+
+.portfolio-showcase .portfolio-pagination .page-numbers.next{
+	background-color: #e34b11;
+	color:            #ffffff;
+	border-color:     #e34b11;
+	text-transform:   none;
+	font-weight:      600;
+	font-size:        14px;
+	padding:          8px 20px;
+	font-style:       normal;
+	text-align:       center;
+	font-family:      'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	display:          inline-block;
+	width:            auto;
+	height:           auto;
+	line-height:      inherit;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+
+}
+
+.portfolio-showcase .portfolio-pagination .page-numbers.next:hover{
+	background-color: #c42c00;
+	border-color:     #fd652b;
+	color:            #fff;
+	text-decoration:  none;
+}
+
+.portfolio-showcase .portfolio-pagination .page-numbers{
+	margin-top: 60px;
+}
+
+.gallery-main-carousel{
+	margin-bottom: 40px;
+}
+
+.gallery-main-carousel .item img{
+	width: 100%;
+}
+
+.gallery-main-carousel .owl-controls .owl-buttons div{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-main-carousel .owl-controls .owl-prev{
+	left: 0;
+}
+
+.gallery-main-carousel .owl-controls .owl-next{
+	right: 0;
+}
+
+.single-portfolio_project .entry-header .entry-title {
+	margin-top: 0;
+}
+.single-portfolio_project .work-single-desc {
+	margin-top: 5px;
+}
+.single-portfolio_project .work-single-desc a.btn {
+	margin-top: 30px;
+	background-color: #5ba5af;
+	color: #ffffff;
+	border-color: #5ba5af;
+	border-radius: 4px;
+	text-transform: none;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 10px 15px;
+	font-style: normal;
+	text-align: center;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	width: 100%;
+}
+
+.single-portfolio_project .work-single-desc a.btn:hover {
+	background-color: #428992;
+	border-color: #5db9c5;
+	color: #fff;
+}
+
+.single-portfolio_project .entry-content {
+	color: #8d8d8d;
+	line-height: 26px;
+}
+
+.single-portfolio_project .work-single-desc .detail .desc {
+	min-width: 100px;
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #363a47;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.single-portfolio_project .work-single-desc .detail {
+	margin-bottom: 20px;
+	color: #666;
+}
+
+.single-portfolio_project .work-single-desc .socials-work a {
+	color: #666;
+	padding-right: 10px;
+}
+
+.single-portfolio_project .work-single-desc .socials-work a:hover {
+	color: #282828;
+}
+.single-portfolio_project .entry-content{
+	color:       #8d8d8d;
+	line-height: 26px;
+}
+
+.single-portfolio_project .blog-wrapper{
+	border: none;
+}
+
+.single-portfolio_project .comment-respond {
+	padding: 0;
+}
+
+.related-works .main-heading h3:after{
+	background-color: #999eab;
+	margin: 17px 0 0;
+	width: 45px;
+	height: 2px;
+	content: "";
+	display: block;
+}
+
+.single-portfolio_project .work-single-desc .detail{
+	margin-bottom: 20px;
+	color:         #666;
+}
+
+.single-portfolio_project .work-single-desc .socials-work a{
+	color:         #666;
+	padding-right: 10px;
+}
+
+.single-portfolio_project .work-single-desc .socials-work a:hover{
+	color: #282828;
+}
+
+.related-works{
+	clear:       both;
+	padding-top: 30px;
+}
+
+.related-works.portfolio-showcase .portfolio_project,
+.related-works.portfolio-showcase .portfolio-sizer{
+	width: 100%;
+}
+
+.related-works.portfolio-showcase .portfolio_project{
+	padding: 0 15px;
+}
+
+.related-works .owl-controls{
+	margin-top: 60px;
+}
+
+.related-works .owl-controls .owl-page span{
+	background-color: #eaeaea;
+	width:            15px;
+	height:           15px;
+	margin:           0 3px;
+}
+
+.related-works .owl-controls .owl-page.active span,
+.related-works .owl-controls.clickable .owl-page:hover span{
+	background-color: #cecece;
+}
+
+.related-works .main-heading{
+	margin-bottom: 20px;
+}
+
+.related-works .owl-controls {
+	display: none;
+}

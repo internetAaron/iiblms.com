@@ -1,0 +1,1065 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnPlus Visual Composer Addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Dec 21 2015 20:45:15 GMT+0700 (ICT)\n"
+"POT-Revision-Date: Mon Dec 21 2015 20:45:17 GMT+0700 (ICT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "LearnPlus Visual Composer Addons"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themealien.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extra elements for Visual Composer. It was built for LearnPlus theme."
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeAlien"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.themealien.com"
+msgstr ""
+
+#: ../inc/shortcodes.php:739
+msgid " comment"
+msgstr ""
+
+#: ../inc/shortcodes.php:741
+msgid " comments"
+msgstr ""
+
+#: ../inc/shortcodes.php:784
+msgid "Read More"
+msgstr ""
+
+#: ../inc/shortcodes.php:1295
+msgid "Forum"
+msgstr ""
+
+#: ../inc/shortcodes.php:1296
+msgid "Topics"
+msgstr ""
+
+#: ../inc/shortcodes.php:1297
+msgid "Posts"
+msgstr ""
+
+#: ../inc/shortcodes.php:1298
+msgid "Freshness"
+msgstr ""
+
+#: ../inc/shortcodes.php:1974 ../inc/shortcodes.php:1982
+msgid "Can not connect to Google Maps APIs"
+msgstr ""
+
+#: ../inc/shortcodes.php:2000
+msgid "No location found for the entered address."
+msgstr ""
+
+#: ../inc/shortcodes.php:2002
+msgid "Invalid request. Did you enter an address?"
+msgstr ""
+
+#: ../inc/shortcodes.php:2004
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+
+#: ../inc/shortcodes.php:2007
+msgid "Unable to contact Google API service."
+msgstr ""
+
+#: ../inc/visual-composer.php:58
+msgid "Overlay"
+msgstr ""
+
+#: ../inc/visual-composer.php:60 ../inc/visual-composer.php:68
+msgid "Design Options"
+msgstr ""
+
+#: ../inc/visual-composer.php:62
+msgid "Select an overlay color for this row"
+msgstr ""
+
+#: ../inc/visual-composer.php:66
+msgid "Enable Parallax effect"
+msgstr ""
+
+#: ../inc/visual-composer.php:69
+msgid "Enable"
+msgstr ""
+
+#: ../inc/visual-composer.php:70
+msgid ""
+"Enable this option if you want to have parallax effect on this row. When you "
+"enable this option, please set background repeat option as \"Theme defaults\" "
+"to make it works."
+msgstr ""
+
+#: ../inc/visual-composer.php:78
+msgid "Section Title"
+msgstr ""
+
+#: ../inc/visual-composer.php:81 ../inc/visual-composer.php:133 ../inc/visual-
+#: composer.php:170 ../inc/visual-composer.php:207 ../inc/visual-composer.php:235 
+#: ../inc/visual-composer.php:247 ../inc/visual-composer.php:349 ../inc/visual-
+#: composer.php:387 ../inc/visual-composer.php:431 ../inc/visual-composer.php:476 
+#: ../inc/visual-composer.php:514 ../inc/visual-composer.php:564 ../inc/visual-
+#: composer.php:623 ../inc/visual-composer.php:685 ../inc/visual-composer.php:706 
+#: ../inc/visual-composer.php:765 ../inc/visual-composer.php:806 ../inc/visual-
+#: composer.php:827 ../inc/visual-composer.php:937 ../inc/visual-composer.php:
+#: 1031 ../inc/visual-composer.php:1121 ../inc/visual-composer.php:1155
+msgid "Content"
+msgstr ""
+
+#: ../inc/visual-composer.php:86 ../inc/visual-composer.php:138 ../inc/visual-
+#: composer.php:200 ../inc/visual-composer.php:316 ../inc/visual-composer.php:400 
+#: ../inc/visual-composer.php:711 ../inc/visual-composer.php:876 ../inc/visual-
+#: composer.php:973 ../inc/visual-composer.php:1086
+msgid "Title"
+msgstr ""
+
+#: ../inc/visual-composer.php:89 ../inc/visual-composer.php:141
+msgid "Enter the title content"
+msgstr ""
+
+#: ../inc/visual-composer.php:94 ../inc/visual-composer.php:323 ../inc/visual-
+#: composer.php:408 ../inc/visual-composer.php:569
+msgid "Description"
+msgstr ""
+
+#: ../inc/visual-composer.php:97
+msgid "Enter a short description for section"
+msgstr ""
+
+#: ../inc/visual-composer.php:102 ../inc/visual-composer.php:215
+msgid "Dark Skin"
+msgstr ""
+
+#: ../inc/visual-composer.php:109 ../inc/visual-composer.php:146
+msgid "Text Align"
+msgstr ""
+
+#: ../inc/visual-composer.php:112 ../inc/visual-composer.php:150
+msgid "Center"
+msgstr ""
+
+#: ../inc/visual-composer.php:113 ../inc/visual-composer.php:149 ../inc/visual-
+#: composer.php:193
+msgid "Left"
+msgstr ""
+
+#: ../inc/visual-composer.php:114 ../inc/visual-composer.php:151 ../inc/visual-
+#: composer.php:194
+msgid "Right"
+msgstr ""
+
+#: ../inc/visual-composer.php:120 ../inc/visual-composer.php:157 ../inc/visual-
+#: composer.php:222 ../inc/visual-composer.php:269 ../inc/visual-composer.php:293 
+#: ../inc/visual-composer.php:374 ../inc/visual-composer.php:416 ../inc/visual-
+#: composer.php:463 ../inc/visual-composer.php:501 ../inc/visual-composer.php:552 
+#: ../inc/visual-composer.php:611 ../inc/visual-composer.php:693 ../inc/visual-
+#: composer.php:753 ../inc/visual-composer.php:813 ../inc/visual-composer.php:922 
+#: ../inc/visual-composer.php:1016 ../inc/visual-composer.php:1106 ../inc/visual-
+#: composer.php:1141 ../inc/visual-composer.php:1167
+msgid "Extra class name"
+msgstr ""
+
+#: ../inc/visual-composer.php:123 ../inc/visual-composer.php:160 ../inc/visual-
+#: composer.php:225 ../inc/visual-composer.php:272 ../inc/visual-composer.php:295 
+#: ../inc/visual-composer.php:377 ../inc/visual-composer.php:419 ../inc/visual-
+#: composer.php:466 ../inc/visual-composer.php:504 ../inc/visual-composer.php:554 
+#: ../inc/visual-composer.php:613 ../inc/visual-composer.php:696 ../inc/visual-
+#: composer.php:755 ../inc/visual-composer.php:815 ../inc/visual-composer.php:925 
+#: ../inc/visual-composer.php:1019 ../inc/visual-composer.php:1109 ../inc/visual-
+#: composer.php:1144 ../inc/visual-composer.php:1170
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../inc/visual-composer.php:130
+msgid "LearnPlus Heading"
+msgstr ""
+
+#: ../inc/visual-composer.php:167
+msgid "Icon Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:175 ../inc/visual-composer.php:240
+msgid "Icon"
+msgstr ""
+
+#: ../inc/visual-composer.php:182
+msgid "Border Radius"
+msgstr ""
+
+#: ../inc/visual-composer.php:189
+msgid "Icon Position"
+msgstr ""
+
+#: ../inc/visual-composer.php:192
+msgid "Top"
+msgstr ""
+
+#: ../inc/visual-composer.php:210 ../inc/visual-composer.php:250
+msgid "Enter the content of this box"
+msgstr ""
+
+#: ../inc/visual-composer.php:232
+msgid "LearnPlus Call to Action"
+msgstr ""
+
+#: ../inc/visual-composer.php:255 ../inc/visual-composer.php:330 ../inc/visual-
+#: composer.php:669
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/visual-composer.php:262 ../inc/visual-composer.php:337 ../inc/visual-
+#: composer.php:677
+msgid "Button Link"
+msgstr ""
+
+#: ../inc/visual-composer.php:278
+msgid "About Sliders"
+msgstr ""
+
+#: ../inc/visual-composer.php:286
+msgid "Image"
+msgstr ""
+
+#: ../inc/visual-composer.php:289 ../inc/visual-composer.php:773
+msgid "Select an image from media library"
+msgstr ""
+
+#: ../inc/visual-composer.php:301
+msgid "About"
+msgstr ""
+
+#: ../inc/visual-composer.php:309
+msgid "SubTitle"
+msgstr ""
+
+#: ../inc/visual-composer.php:346
+msgid "Team"
+msgstr ""
+
+#: ../inc/visual-composer.php:354
+msgid "Total members"
+msgstr ""
+
+#: ../inc/visual-composer.php:357
+msgid "Set numbers of members to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:362 ../inc/visual-composer.php:451 ../inc/visual-
+#: composer.php:489 ../inc/visual-composer.php:860 ../inc/visual-composer.php:957 
+#: ../inc/visual-composer.php:1070
+msgid "Columns"
+msgstr ""
+
+#: ../inc/visual-composer.php:365 ../inc/visual-composer.php:455 ../inc/visual-
+#: composer.php:493 ../inc/visual-composer.php:863 ../inc/visual-composer.php:960 
+#: ../inc/visual-composer.php:1073
+msgid "4 columns"
+msgstr ""
+
+#: ../inc/visual-composer.php:366 ../inc/visual-composer.php:456 ../inc/visual-
+#: composer.php:494
+msgid "2 columns"
+msgstr ""
+
+#: ../inc/visual-composer.php:367 ../inc/visual-composer.php:454 ../inc/visual-
+#: composer.php:492 ../inc/visual-composer.php:864 ../inc/visual-composer.php:961 
+#: ../inc/visual-composer.php:1074
+msgid "3 columns"
+msgstr ""
+
+#: ../inc/visual-composer.php:369 ../inc/visual-composer.php:458 ../inc/visual-
+#: composer.php:496 ../inc/visual-composer.php:866 ../inc/visual-composer.php:963 
+#: ../inc/visual-composer.php:1077
+msgid "Select numbers of columns you want to display."
+msgstr ""
+
+#: ../inc/visual-composer.php:384
+msgid "Counter"
+msgstr ""
+
+#: ../inc/visual-composer.php:392
+msgid "Counter Value"
+msgstr ""
+
+#: ../inc/visual-composer.php:395
+msgid "Input integer value for counting"
+msgstr ""
+
+#: ../inc/visual-composer.php:403
+msgid "Enter the title of this box"
+msgstr ""
+
+#: ../inc/visual-composer.php:411
+msgid "Enter the description of this box"
+msgstr ""
+
+#: ../inc/visual-composer.php:426
+msgid "LearnPlus Posts"
+msgstr ""
+
+#: ../inc/visual-composer.php:436
+msgid "Total posts"
+msgstr ""
+
+#: ../inc/visual-composer.php:439
+msgid "Set numbers of posts to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:444 ../inc/visual-composer.php:1055
+msgid "Categories"
+msgstr ""
+
+#: ../inc/visual-composer.php:446
+msgid "Select a category or select All to get posts from all categories."
+msgstr ""
+
+#: ../inc/visual-composer.php:473
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/visual-composer.php:481
+msgid "Total testimonial"
+msgstr ""
+
+#: ../inc/visual-composer.php:484
+msgid "Set numbers of testimonial to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:511
+msgid "LearnPlus Images"
+msgstr ""
+
+#: ../inc/visual-composer.php:519
+msgid "Images"
+msgstr ""
+
+#: ../inc/visual-composer.php:522
+msgid "Select images from media library"
+msgstr ""
+
+#: ../inc/visual-composer.php:527
+msgid "Image size"
+msgstr ""
+
+#: ../inc/visual-composer.php:529
+msgid ""
+"Enter image size. Example: thumbnail, medium, large, full. Leave empty to "
+"use \"thumbnail\" size."
+msgstr ""
+
+#: ../inc/visual-composer.php:534
+msgid "Custom links"
+msgstr ""
+
+#: ../inc/visual-composer.php:536
+msgid "Enter links for each slide here. Divide links with linebreaks (Enter)."
+msgstr ""
+
+#: ../inc/visual-composer.php:541
+msgid "Custom link target"
+msgstr ""
+
+#: ../inc/visual-composer.php:544
+msgid "Same window"
+msgstr ""
+
+#: ../inc/visual-composer.php:545
+msgid "New window"
+msgstr ""
+
+#: ../inc/visual-composer.php:547
+msgid "Select where to open custom links."
+msgstr ""
+
+#: ../inc/visual-composer.php:561
+msgid "Buttons Box"
+msgstr ""
+
+#: ../inc/visual-composer.php:575
+msgid "Button Icon 1"
+msgstr ""
+
+#: ../inc/visual-composer.php:581
+msgid "Button Text 1"
+msgstr ""
+
+#: ../inc/visual-composer.php:587
+msgid "Button Link 1"
+msgstr ""
+
+#: ../inc/visual-composer.php:593
+msgid "Button Icon 2"
+msgstr ""
+
+#: ../inc/visual-composer.php:599
+msgid "Button Text 2"
+msgstr ""
+
+#: ../inc/visual-composer.php:605
+msgid "Button Link 2"
+msgstr ""
+
+#: ../inc/visual-composer.php:620
+msgid "Pricing Table"
+msgstr ""
+
+#: ../inc/visual-composer.php:628
+msgid "Plans"
+msgstr ""
+
+#: ../inc/visual-composer.php:631
+msgid "3 plans"
+msgstr ""
+
+#: ../inc/visual-composer.php:632
+msgid "4 plans"
+msgstr ""
+
+#: ../inc/visual-composer.php:633
+msgid "2 plans"
+msgstr ""
+
+#: ../inc/visual-composer.php:635
+msgid "Select numbers of plans you want to display."
+msgstr ""
+
+#: ../inc/visual-composer.php:640 ../inc/visual-composer.php:836
+msgid "Featured"
+msgstr ""
+
+#: ../inc/visual-composer.php:643
+msgid "None"
+msgstr ""
+
+#: ../inc/visual-composer.php:644
+msgid "3th"
+msgstr ""
+
+#: ../inc/visual-composer.php:645
+msgid "4th"
+msgstr ""
+
+#: ../inc/visual-composer.php:646
+msgid "2nd"
+msgstr ""
+
+#: ../inc/visual-composer.php:648
+msgid "Select numbers of plans you want to set as featured."
+msgstr ""
+
+#: ../inc/visual-composer.php:653
+msgid "Titles"
+msgstr ""
+
+#: ../inc/visual-composer.php:656
+msgid "Enter titles for element (Note: divide columns linebreaks (Enter))."
+msgstr ""
+
+#: ../inc/visual-composer.php:661
+msgid "Price"
+msgstr ""
+
+#: ../inc/visual-composer.php:664
+msgid "Enter Price for element (Note: divide columns linebreaks (Enter))."
+msgstr ""
+
+#: ../inc/visual-composer.php:672
+msgid "Enter button text for element (Note: divide columns linebreaks (Enter))."
+msgstr ""
+
+#: ../inc/visual-composer.php:680
+msgid "Enter button link for element (Note: divide columns linebreaks (Enter))."
+msgstr ""
+
+#: ../inc/visual-composer.php:688
+msgid ""
+"Enter the content ( Note: divide columns with '|' and devide rows with "
+"linebreaks (Enter)"
+msgstr ""
+
+#: ../inc/visual-composer.php:703
+msgid "Contact Details"
+msgstr ""
+
+#: ../inc/visual-composer.php:717
+msgid "Website"
+msgstr ""
+
+#: ../inc/visual-composer.php:723
+msgid "URL"
+msgstr ""
+
+#: ../inc/visual-composer.php:729
+msgid "Email"
+msgstr ""
+
+#: ../inc/visual-composer.php:735
+msgid "Phone"
+msgstr ""
+
+#: ../inc/visual-composer.php:741
+msgid "Fax"
+msgstr ""
+
+#: ../inc/visual-composer.php:747 ../inc/visual-composer.php:778
+msgid "Address"
+msgstr ""
+
+#: ../inc/visual-composer.php:762
+msgid "LearnPlus Google Maps"
+msgstr ""
+
+#: ../inc/visual-composer.php:770
+msgid "Marker"
+msgstr ""
+
+#: ../inc/visual-composer.php:785
+msgid "Width(px)"
+msgstr ""
+
+#: ../inc/visual-composer.php:792
+msgid "Height(px)"
+msgstr ""
+
+#: ../inc/visual-composer.php:799
+msgid "Zoom"
+msgstr ""
+
+#: ../inc/visual-composer.php:822
+msgid "LearnPlus Products Carousel"
+msgstr ""
+
+#: ../inc/visual-composer.php:832
+msgid "Products"
+msgstr ""
+
+#: ../inc/visual-composer.php:835
+msgid "Recent"
+msgstr ""
+
+#: ../inc/visual-composer.php:837
+msgid "Best Selling"
+msgstr ""
+
+#: ../inc/visual-composer.php:838
+msgid "Top Rated"
+msgstr ""
+
+#: ../inc/visual-composer.php:839
+msgid "On Sale"
+msgstr ""
+
+#: ../inc/visual-composer.php:845 ../inc/visual-composer.php:942
+msgid "Category"
+msgstr ""
+
+#: ../inc/visual-composer.php:847
+msgid "Select a category or select categories to get products."
+msgstr ""
+
+#: ../inc/visual-composer.php:852
+msgid "Total Products"
+msgstr ""
+
+#: ../inc/visual-composer.php:855
+msgid "Set numbers of products to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:871 ../inc/visual-composer.php:968 ../inc/visual-
+#: composer.php:1082
+msgid "Order By"
+msgstr ""
+
+#: ../inc/visual-composer.php:875 ../inc/visual-composer.php:971 ../inc/visual-
+#: composer.php:1085
+msgid "Date"
+msgstr ""
+
+#: ../inc/visual-composer.php:877 ../inc/visual-composer.php:974 ../inc/visual-
+#: composer.php:1087
+msgid "Menu Order"
+msgstr ""
+
+#: ../inc/visual-composer.php:878 ../inc/visual-composer.php:975 ../inc/visual-
+#: composer.php:1088
+msgid "Random"
+msgstr ""
+
+#: ../inc/visual-composer.php:881
+msgid "Select to order products. Leave empty to use the default order by of theme."
+msgstr ""
+
+#: ../inc/visual-composer.php:886 ../inc/visual-composer.php:982 ../inc/visual-
+#: composer.php:1095
+msgid "Order"
+msgstr ""
+
+#: ../inc/visual-composer.php:890 ../inc/visual-composer.php:986 ../inc/visual-
+#: composer.php:1099
+msgid "Ascending "
+msgstr ""
+
+#: ../inc/visual-composer.php:891 ../inc/visual-composer.php:985 ../inc/visual-
+#: composer.php:1098
+msgid "Descending "
+msgstr ""
+
+#: ../inc/visual-composer.php:894
+msgid "Select to sort products. Leave empty to use the default sort of theme"
+msgstr ""
+
+#: ../inc/visual-composer.php:899 ../inc/visual-composer.php:993
+msgid "Slider autoplay"
+msgstr ""
+
+#: ../inc/visual-composer.php:901 ../inc/visual-composer.php:909 ../inc/visual-
+#: composer.php:917 ../inc/visual-composer.php:995 ../inc/visual-composer.php:
+#: 1003 ../inc/visual-composer.php:1011 ../inc/visual-composer.php:1050
+msgid "Yes"
+msgstr ""
+
+#: ../inc/visual-composer.php:902 ../inc/visual-composer.php:996
+msgid "Enables autoplay mode."
+msgstr ""
+
+#: ../inc/visual-composer.php:907 ../inc/visual-composer.php:1001
+msgid "Hide prev/next buttons"
+msgstr ""
+
+#: ../inc/visual-composer.php:910 ../inc/visual-composer.php:1004
+msgid "If \"YES\" prev/next control will be removed."
+msgstr ""
+
+#: ../inc/visual-composer.php:915
+msgid "Gray Skin"
+msgstr ""
+
+#: ../inc/visual-composer.php:932
+msgid "Courses Carousel"
+msgstr ""
+
+#: ../inc/visual-composer.php:944
+msgid "Select a category get courses "
+msgstr ""
+
+#: ../inc/visual-composer.php:949
+msgid "Total Courses"
+msgstr ""
+
+#: ../inc/visual-composer.php:952
+msgid "Set numbers of courses to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:972
+msgid "Comments"
+msgstr ""
+
+#: ../inc/visual-composer.php:977 ../inc/visual-composer.php:1090
+msgid "Select to order courses. Leave empty to use the default order by of theme."
+msgstr ""
+
+#: ../inc/visual-composer.php:988 ../inc/visual-composer.php:1101
+msgid "Select to sort courses. Leave empty to use the default sort of theme"
+msgstr ""
+
+#: ../inc/visual-composer.php:1009
+msgid "Light Skin"
+msgstr ""
+
+#: ../inc/visual-composer.php:1026
+msgid "LearnPlus Courses"
+msgstr ""
+
+#: ../inc/visual-composer.php:1036
+msgid "Show"
+msgstr ""
+
+#: ../inc/visual-composer.php:1039
+msgid "Grid"
+msgstr ""
+
+#: ../inc/visual-composer.php:1040
+msgid "List"
+msgstr ""
+
+#: ../inc/visual-composer.php:1042
+msgid "Select courses type you want to display."
+msgstr ""
+
+#: ../inc/visual-composer.php:1047
+msgid "Filterable"
+msgstr ""
+
+#: ../inc/visual-composer.php:1057
+msgid "Select a category or select categories to get courses "
+msgstr ""
+
+#: ../inc/visual-composer.php:1062
+msgid "Courses per view"
+msgstr ""
+
+#: ../inc/visual-composer.php:1065
+msgid "Set numbers of courses you want to display at the same time."
+msgstr ""
+
+#: ../inc/visual-composer.php:1118
+msgid "BBPress Forums"
+msgstr ""
+
+#: ../inc/visual-composer.php:1126
+msgid "Total Forums"
+msgstr ""
+
+#: ../inc/visual-composer.php:1129
+msgid "Set numbers of forums to show."
+msgstr ""
+
+#: ../inc/visual-composer.php:1134
+msgid "Show Pagination"
+msgstr ""
+
+#: ../inc/visual-composer.php:1152
+msgid "Portfolio Showcase"
+msgstr ""
+
+#: ../inc/visual-composer.php:1160
+msgid "Showcase"
+msgstr ""
+
+#: ../inc/visual-composer.php:1180 ../inc/visual-composer.php:1182 ../inc/visual-
+#: composer.php:1191 ../inc/visual-composer.php:1199
+msgid "Animation"
+msgstr ""
+
+#: ../inc/visual-composer.php:1183
+msgid "Select an animation for this element."
+msgstr ""
+
+#: ../inc/visual-composer.php:1189
+msgid "Duration"
+msgstr ""
+
+#: ../inc/visual-composer.php:1193
+msgid "Duration of animation (in ms). Leave empty to use \"1000 ms\"."
+msgstr ""
+
+#: ../inc/visual-composer.php:1198
+msgid "Delay"
+msgstr ""
+
+#: ../inc/visual-composer.php:1202
+msgid "Delay of animation (in ms). Leave empty to use \"200 ms\"."
+msgstr ""
+
+#: ../inc/visual-composer.php:1237
+msgid "Full Size"
+msgstr ""
+
+#: ../inc/visual-composer.php:1295
+msgid "All"
+msgstr ""
+
+#: ../inc/visual-composer.php:1322
+msgid "Select a form"
+msgstr ""
+
+#: ../inc/visual-composer.php:1402
+msgid "No Animation"
+msgstr ""
+
+#: ../inc/visual-composer.php:1403
+msgid "Bounce"
+msgstr ""
+
+#: ../inc/visual-composer.php:1404
+msgid "Flash"
+msgstr ""
+
+#: ../inc/visual-composer.php:1405
+msgid "Pulse"
+msgstr ""
+
+#: ../inc/visual-composer.php:1406
+msgid "Rubberband"
+msgstr ""
+
+#: ../inc/visual-composer.php:1407
+msgid "Shake"
+msgstr ""
+
+#: ../inc/visual-composer.php:1408
+msgid "Swing"
+msgstr ""
+
+#: ../inc/visual-composer.php:1409
+msgid "Tada"
+msgstr ""
+
+#: ../inc/visual-composer.php:1410
+msgid "Wobble"
+msgstr ""
+
+#: ../inc/visual-composer.php:1411
+msgid "Bouncein"
+msgstr ""
+
+#: ../inc/visual-composer.php:1412
+msgid "Bounceindown"
+msgstr ""
+
+#: ../inc/visual-composer.php:1413
+msgid "Bounceinleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1414
+msgid "Bounceinright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1415
+msgid "Bounceinup"
+msgstr ""
+
+#: ../inc/visual-composer.php:1416
+msgid "Bounceout"
+msgstr ""
+
+#: ../inc/visual-composer.php:1417
+msgid "Bounceoutdown"
+msgstr ""
+
+#: ../inc/visual-composer.php:1418
+msgid "Bounceoutleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1419
+msgid "Bounceoutright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1420
+msgid "Bounceoutup"
+msgstr ""
+
+#: ../inc/visual-composer.php:1421
+msgid "Fadein"
+msgstr ""
+
+#: ../inc/visual-composer.php:1422
+msgid "Fadeindown"
+msgstr ""
+
+#: ../inc/visual-composer.php:1423
+msgid "Fadeindownbig"
+msgstr ""
+
+#: ../inc/visual-composer.php:1424
+msgid "Fadeinleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1425
+msgid "Fadeinleftbig"
+msgstr ""
+
+#: ../inc/visual-composer.php:1426
+msgid "Fadeinright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1427
+msgid "Fadeinrightbig"
+msgstr ""
+
+#: ../inc/visual-composer.php:1428
+msgid "Fadeinup"
+msgstr ""
+
+#: ../inc/visual-composer.php:1429
+msgid "Fadeinupbig"
+msgstr ""
+
+#: ../inc/visual-composer.php:1430
+msgid "Fadeout"
+msgstr ""
+
+#: ../inc/visual-composer.php:1431
+msgid "Fadeoutdown"
+msgstr ""
+
+#: ../inc/visual-composer.php:1432
+msgid "Fadeoutdownbig"
+msgstr ""
+
+#: ../inc/visual-composer.php:1433
+msgid "Fadeoutleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1434
+msgid "Fadeoutleftbig"
+msgstr ""
+
+#: ../inc/visual-composer.php:1435
+msgid "Fadeoutright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1436
+msgid "Fadeoutrightbig"
+msgstr ""
+
+#: ../inc/visual-composer.php:1437
+msgid "Fadeoutup"
+msgstr ""
+
+#: ../inc/visual-composer.php:1438
+msgid "Fadeoutupbig"
+msgstr ""
+
+#: ../inc/visual-composer.php:1439
+msgid "Flip"
+msgstr ""
+
+#: ../inc/visual-composer.php:1440
+msgid "Flipinx"
+msgstr ""
+
+#: ../inc/visual-composer.php:1441
+msgid "Flipiny"
+msgstr ""
+
+#: ../inc/visual-composer.php:1442
+msgid "Flipoutx"
+msgstr ""
+
+#: ../inc/visual-composer.php:1443
+msgid "Flipouty"
+msgstr ""
+
+#: ../inc/visual-composer.php:1444
+msgid "Lightspeedin"
+msgstr ""
+
+#: ../inc/visual-composer.php:1445
+msgid "Lightspeedout"
+msgstr ""
+
+#: ../inc/visual-composer.php:1446
+msgid "Rotatein"
+msgstr ""
+
+#: ../inc/visual-composer.php:1447
+msgid "Rotateindownleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1448
+msgid "Rotateindownright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1449
+msgid "Rotateinupleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1450
+msgid "Rotateinupright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1451
+msgid "Rotateout"
+msgstr ""
+
+#: ../inc/visual-composer.php:1452
+msgid "Rotateoutdownleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1453
+msgid "Rotateoutdownright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1454
+msgid "Rotateoutupleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1455
+msgid "Rotateoutupright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1456
+msgid "Hinge"
+msgstr ""
+
+#: ../inc/visual-composer.php:1457
+msgid "Rollin"
+msgstr ""
+
+#: ../inc/visual-composer.php:1458
+msgid "Rollout"
+msgstr ""
+
+#: ../inc/visual-composer.php:1459
+msgid "Zoomin"
+msgstr ""
+
+#: ../inc/visual-composer.php:1460
+msgid "Zoomindown"
+msgstr ""
+
+#: ../inc/visual-composer.php:1461
+msgid "Zoominleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1462
+msgid "Zoominright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1463
+msgid "Zoominup"
+msgstr ""
+
+#: ../inc/visual-composer.php:1464
+msgid "Zoomout"
+msgstr ""
+
+#: ../inc/visual-composer.php:1465
+msgid "Zoomoutdown"
+msgstr ""
+
+#: ../inc/visual-composer.php:1466
+msgid "Zoomoutleft"
+msgstr ""
+
+#: ../inc/visual-composer.php:1467
+msgid "Zoomoutright"
+msgstr ""
+
+#: ../inc/visual-composer.php:1468
+msgid "Zoomoutup"
+msgstr ""

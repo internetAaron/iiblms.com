@@ -1,0 +1,296 @@
+.course-grid .ld_course_grid {
+	&:nth-child(4n+1) {
+		clear: both;
+	}
+}
+
+.course-button {
+	.learndash_checkout_buttons {
+		margin: 0;
+
+		.learndash_checkout_button {
+			float: none;
+			max-width: 100%;
+			margin-right: 0;
+		}
+	}
+
+	#btn-join {
+		border-radius: 0;
+		font-size: 14px;
+		font-weight: 600;
+		text-transform: uppercase;
+		width: 100%;
+		display: block;
+		background-color: #5ba5af;
+
+		&:hover,
+		&:focus {
+			background-color: #428992;
+		}
+	}
+}
+
+.shopmeta {
+	.rating {
+		position: relative;
+
+		span {
+			overflow: hidden;
+			display: block;
+			height: 26px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			white-space: nowrap;
+		}
+	}
+
+	&.course-rating {
+		color: @light;
+
+		.rating {
+			display: inline-block;
+		}
+	}
+}
+
+.feedbacks .media img {
+	max-width: 65px;
+}
+
+.other-courses {
+	.related-title {
+		font-size: 24px;
+		font-weight: 500;
+		text-transform: none;
+		margin-top: 20px;
+		float: right;
+
+		&:after {
+			background-color: #999eab;
+			margin: 17px 0 0;
+			width: 45px;
+			height: 2px;
+			content: "";
+			display: block;
+		}
+	}
+}
+
+.wpProQuiz_list {
+	.wpProQuiz_questionList {
+		padding: 15px !important;
+		border-color: #edecf0 !important;
+		background: none !important;
+	}
+
+	.wpProQuiz_response {
+		border-color: #edecf0 !important;
+		background: none !important;
+		box-shadow: none !important;
+	}
+
+	.wpProQuiz_button {
+		border-radius: 4px !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+		padding: 6px 12px !important;
+		font-size: 14px !important;
+		font-weight: 600 !important;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		border-color: #fd652b !important;
+		background-color: #c42c00 !important;
+		width: 45%;
+	}
+}
+
+.wpProQuiz_results {
+	a#quiz_continue_link {
+		border-radius: 4px;
+		display: block;
+		width: 100%;
+		font-size: 14px;
+		text-align: center;
+	}
+}
+#learndash_timer {
+	display: block;
+	text-align: center;
+}
+
+.lp-courses {
+	.numeric-navigation {
+		clear: both;
+		margin: 20px 0;
+	}
+	.course-list.isotope {
+		padding-bottom: 40px;
+
+		.numeric-navigation {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+	}
+}
+
+.teacher-list .course-list {
+	clear: both;
+	overflow: hidden;
+}
+
+.instructors-navigation {
+	clear : both;
+}
+
+.wpProQuiz_question .wpProQuiz_questionInput {
+	border-color: #edecf0;
+	padding: 0 5px;
+}
+
+.wpProQuiz_answerCorrect,
+.wpProQuiz_answerIncorrect {
+	color: @light;
+}
+
+
+.wpProQuiz_time_limit .wpProQuiz_progress {
+	background-color: @primary-color !important;
+}
+
+.wpProQuiz_question .wpProQuiz_questionInput {
+	color: #444;
+}
+
+.wpProQuiz_AnswerMessage {
+	margin: 0;
+}
+
+.wpProQuiz_sortable,
+.wpProQuiz_sortStringItem {
+	color: #444;
+}
+
+.course-meta .label-primary {
+	width: auto;
+}
+.course-meta  {
+	.course-instructors {
+		margin-bottom: 5px;
+	}
+}
+
+#learndash_profile.course-description {
+	border: none;
+
+	.learndash_profile_heading {
+		border-bottom: 1px solid #dedde1;
+		background-color: @light;
+		font-size: 14px;
+		color: #363a47;
+		font-weight: 700;
+	}
+
+	.list_arrow {
+		visibility: inherit;
+
+		&.collapse {
+			background: none;
+		}
+
+		&.expand {
+			background: none;
+		}
+
+		a {
+			text-decoration: underline !important;
+			color: #363a47;
+		}
+	}
+
+	#course_list > div  {
+
+		& > div {
+			border: none;
+			border-bottom: 1px solid #dedde1;
+			width: 12%;
+		}
+
+		h4 {
+			border: none;
+			border-bottom: 1px solid #dedde1;
+			padding: 0;
+		}
+
+		.learndash_profile_heading {
+			font-size: 12px;
+			background-color: #f3f3f3;
+			border: none;
+			font-weight: 400;
+			margin-top: 10px;
+		}
+
+		&:last-child {
+			& > div {
+				border: none;
+			}
+
+			h4 {
+				border: none;
+			}
+		}
+	}
+
+	.notcompleted,
+	.completed {
+		background: none;
+		line-height: 1.6;
+		color: #363a47;
+		transition: 0.5s;
+
+		&:hover {
+			color: @primary-color;
+		}
+
+		&:after {
+			.icon("\f00d");
+			float: right;
+			background-color: #FF0000;
+			color: #ffffff;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			margin-right: 15px;
+		}
+
+		&:before {
+			.icon("\f0da");
+			width: 15px;
+		}
+	}
+
+	.list_arrow.expand + h4 {
+		.notcompleted,
+		.completed {
+			color: @primary-color;
+
+			&:before {
+				.icon("\f0d7");
+			}
+		}
+	}
+
+	.completed {
+		&:after {
+			background-color: #92CD00;
+			content: "\f00c";
+		}
+	}
+
+
+}
