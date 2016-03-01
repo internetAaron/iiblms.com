@@ -244,7 +244,7 @@ if ( ! class_exists( "sf3_learndash_shortcodes" ) ) {
 
 			$level = ob_get_level();
 			ob_start();
-			include( SFWD_LMS::get_template( 'sf3ld_course_loop', null, null, true ) );
+			include( SFWD_LMS::get_template( 'course_list_template', null, null, true ) );
 			$content         = learndash_ob_get_clean( $level );
 			$content         = str_replace( array( "\n", "\r" ), " ", $content );
 			$user_has_access = $has_access ? "user_has_access" : "user_has_no_access";
