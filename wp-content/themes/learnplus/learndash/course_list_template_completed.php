@@ -17,7 +17,7 @@ global $post;
 				<?php the_title( '<h4 class="pull-left"><a href="' . get_permalink() . '" title="' . the_title_attribute( 'echo=0' ) . '" rel="bookmark">', '</a></h4>' ); ?>
 			
 				<!-- <p><?php the_excerpt() ?></p> -->
-				<a href="<?php the_permalink() ?>" class="btn btn-default btn-sm pull-right"><?php esc_html_e( 'Start Course', 'learnplus' ) ?></a>
+				<a href="<?php the_permalink() ?>" class="btn btn-default btn-sm pull-right"><?php esc_html_e( 'Review Course', 'learnplus' ) ?></a>
 			</div>
 		</div>
 	</div>

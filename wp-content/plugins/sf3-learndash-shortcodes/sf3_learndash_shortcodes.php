@@ -243,8 +243,16 @@ if ( ! class_exists( "sf3_learndash_shortcodes" ) ) {
 			}
 
 			$level = ob_get_level();
-			ob_start();
-			include( SFWD_LMS::get_template( 'course_list_template', null, null, true ) );
+			ob_start();		
+
+			if($atts['shortcode_type'] == 'pending_courses'){
+			    include( SFWD_LMS::get_template( 'course_list_template', null, null, true ) );
+			}elseif($atts['shortcode_type'] == 'in_progress_courses'){
+			    include( SFWD_LMS::get_template( 'course_list_template_inprogress', null, null, true ) );
+			}elseif($atts['shortcode_type'] == 'completed_courses'){
+			    include( SFWD_LMS::get_template( 'course_list_template_completed', null, null, true ) );
+			}
+
 			$content         = learndash_ob_get_clean( $level );
 			$content         = str_replace( array( "\n", "\r" ), " ", $content );
 			$user_has_access = $has_access ? "user_has_access" : "user_has_no_access";
